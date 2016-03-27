@@ -21,3 +21,10 @@ Pieces can jump over other pieces, and throw out pieces from other players (into
 
 ## Game Plane
 ![Game Plan](http://upload.wikimedia.org/wikipedia/commons/9/91/Menschenaergern.svg)
+
+## My Task - Create computer controlled players 
+To complete this task, i reasearched what are the best strategies for playing the game. The player should aim for
+- score a point if it can. 
+- never to pass an opportunity to remove an enemy token from the board, because this way the player slows the progress of his/her opponent drastically,thus lowering their chance to win.
+- if the dice is 6 the ai will try to put a new token on the board.
+- if none of the above were possible the ai will move one of its tokens on the board if it has any. This is done by
