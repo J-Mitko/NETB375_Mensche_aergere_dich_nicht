@@ -27,4 +27,4 @@ To complete this task, i reasearched what are the best strategies for playing th
 - score a point if it can. 
 - never to pass an opportunity to remove an enemy token from the board, because this way the player slows the progress of his/her opponent drastically,thus lowering their chance to win.
 - if the dice is 6 the ai will try to put a new token on the board.
-- if none of the above were possible the ai will move one of its tokens on the board if it has any. This is done by
+- if none of the above were possible the ai will move one of its tokens on the board if it has any. This is done by assigning priority by checking for enemy tokens nearby. If there are enemy tokens behind the player token ,priority is added to that token to be moved and if there are enemy tokens infront it substrack priority.
